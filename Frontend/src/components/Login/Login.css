@@ -1,0 +1,70 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0;
+}
+.form #Submit {
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+  }
+  
+  .text-center, .head {
+    color: #333;
+    font-size: large;
+  }
+  
+  body {
+    font-family: "Helvetica";
+    background: #f7f7f7;
+    /* padding: 8% 0 0;
+    width: 365px;
+    margin: auto; */
+  }
+  
+  .head {
+    padding-left: 27%;
+  }
+  
+  .text-center {
+    padding-left: 45%;
+  }
+  
+  .form {
+    position: relative;
+    z-index: 1;
+    max-width: 350px;
+    margin: 0 auto 100px;
+    border-radius: 10px;
+    padding: 50px;
+    background: #FFFFFF;
+  }
+  .form .nameTag {
+    float: right;
+    border-radius: 4px;
+  }
+  .form-label {
+    padding-right: 10px;
+  }
+  .form .form-element {
+    padding: 10px;
+  }
+  /* .form .form-element .error {
+    color: #de3a21;
+  } */
+  #loginEmail {
+    margin-left: 12px;
+  }
+  .form #Submit {
+    background-color: #1497d3;
+    box-shadow: var(--box-shadow);
+    display: block;
+    font-size: 16px;
+    margin: 30px 0 15px;
+    padding: 10px;
+    width: 100%;
+  }
+  /* .form #Submit:focus {
+    outline: 0;
+  } */
